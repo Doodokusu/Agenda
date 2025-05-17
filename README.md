@@ -15,7 +15,7 @@ Agenda is a browser-based calendar application developed with HTML, CSS, and Jav
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/doodoksuu/agenda.git
+   git clone https://github.com/doodokusu/agenda.git
    cd agenda
    ```
 
