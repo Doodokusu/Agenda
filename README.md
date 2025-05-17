@@ -1,37 +1,44 @@
 # Agenda
-Agenda is a browser-based calendar application developed with HTML, CSS, and JavaScript. It allows users to create, view, and manage daily events in both monthly and weekly formats. All data is stored locally using IndexedDB via the Dexie.js library, ensuring offline functionality without requiring a backend server.
 
-Features
-Switch between monthly and weekly calendar views
+Agenda is a browser-based calendar application developed with HTML, CSS, and JavaScript. It supports monthly and weekly views, allowing users to manage their personal schedules with local data storage using IndexedDB (via Dexie.js). No backend or server setup is required.
 
-Add events with start time (and optionally end time)
+## Features
 
-Display events in chronological order for each day
+- Monthly and weekly calendar views
+- Add events with start time (optional end time)
+- Chronological event listing per day
+- Delete events with confirmation
+- Data persistence via IndexedDB (offline support)
 
-Delete events with a confirmation modal
+## Installation
 
-Store all event data locally in the browser (no login or external server)
+1. Clone the repository:
 
-Installation
-Clone the repository:
-git clone https://https://github.com/Doodokusu/Agenda.git
-cd agenda
-Open main.html with any modern browser.
+   ```bash
+   git clone https://github.com/doodoksuu/agenda.git
+   cd agenda
+   ```
 
-No build process or server setup is required. This project runs entirely in the browser.
+2. Open `main.html` in your web browser.
 
-File Structure
+   > This project runs entirely in the browser. No build or server is required.
+
+## File Structure
+
+```
 agenda/
-├── main.html       # HTML layout for the application
-├── style.css       # Styling for calendar views and modals
-├── index.js        # JavaScript logic, event handling, database integration
-└── README.md       # Project documentation
-Technologies Used
-HTML, CSS, and Vanilla JavaScript
+├── main.html        # Main HTML layout
+├── style.css        # Calendar and modal styling
+├── index.js         # Application logic and IndexedDB operations
+└── README.md        # Project documentation
+```
 
-Dexie.js for IndexedDB interaction
+## Technologies Used
 
-Font Awesome (for modal icons)
+- HTML, CSS, JavaScript (no frameworks)
+- Dexie.js for IndexedDB
+- Font Awesome (for optional icons)
 
-License
+## License
+
 This project is licensed under the MIT License.
